@@ -1,0 +1,9 @@
+# 원하는 문자가 입력 될때까지 반복 출력
+while True:
+    a = input()
+    
+    if a =='q': # 원하는 문자 q
+        print(a)
+        break
+    else:
+        print(a)
