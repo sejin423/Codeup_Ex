@@ -1,0 +1,10 @@
+dump = 0
+
+n = int(input())
+
+for i in range(n):
+    student, apple = map(int,input().split())
+    last_apple = apple % student
+    dump = dump + last_apple
+
+print(dump)
