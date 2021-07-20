@@ -1,0 +1,9 @@
+a = int(input())
+
+def factorial_recursive(n):
+    if n <= 1: # n이 1 이하인 경우 1 반환
+        return 1
+    # n! 을 그대로 코드로 작성.
+    return n * factorial_recursive(n - 1)
+
+print(factorial_recursive(a))
